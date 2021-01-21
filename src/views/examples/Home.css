@@ -1,0 +1,122 @@
+.daily-offer{
+    padding: 20px;
+}
+
+.daily-offer-bar{
+    height: 20px;
+    text-align: center;
+    background-color: white;
+    background-image: url(../../img/salebg.png);
+    background-repeat: repeat-x;
+    background-size: 300px;
+    background-size: contain;
+    background-position-x: -40%;
+}
+
+.daily-offer-header > li{
+    font-size: 40px;
+    font-family: minimal;
+}
+
+.daily-offer-body{
+     margin: 15px;
+     display: flex;
+     align-items: center;
+     background-color: #ffffff;
+ }
+
+ .daily-offer-img{
+    min-width: 25%;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 50%;
+    background-image: url(../../img/background.png);
+    background-repeat: repeat;
+    background-size: 250px;
+ }
+
+ .daily-offer-img > img{
+     width: 450px;
+ }
+
+ .daily-offer-info{
+    padding-top: 30px;
+    align-items: center;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.daily-offer-info > p{
+     color: #dd0042;
+     font-family: minimal;
+     font-size: 20px;
+}
+
+#daily-offer-title{
+    font-size: 80px;
+    color: #000000;
+}
+
+#daily-offer-collection{
+    font-size: 40px;
+    color: #000000;
+}
+
+#daily-offer-price{
+    font-size: 120px;
+    color: #dd0042;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.buy-button{
+    margin-top: 20px;
+    width: 100%;
+    color: white;
+    padding: 20px;
+    background-color: #dd0042;
+    text-align: center;
+    font-family: minimal;
+    font-size: 40px;
+}
+
+.news-section{
+    background-color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+.news-container{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#news-header{
+    color: black;
+    font-family: minimal;
+    font-size: 50px;
+}
+
+.other-products{
+    background-color: #dd0042;
+    text-align: center;
+}
+
+.other-products > p{
+    margin: 30px;
+    padding: 20px;
+    color: white;
+    font-family: minimal;
+    font-size: 50px;
+}
+
+.cards-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
