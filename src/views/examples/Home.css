@@ -1,9 +1,15 @@
+.daily-offer-button{
+    width: 100%;
+}
+
 .daily-offer{
     padding: 20px;
+    min-width: 90%;
 }
 
 .daily-offer-bar{
     height: 20px;
+    width: 100%;
     text-align: center;
     background-color: white;
     background-image: url(../../img/salebg.png);
@@ -19,17 +25,15 @@
 }
 
 .daily-offer-body{
-     margin: 15px;
-     display: flex;
-     align-items: center;
-     background-color: #ffffff;
- }
-
- .daily-offer-img{
-    min-width: 25%;
-    position: relative;
+    margin: 15px;
+    width: 100%;
     display: flex;
-    flex-wrap: nowrap;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.daily-offer-img{
+    display: flex;
     justify-content: center;
     width: 50%;
     background-image: url(../../img/background.png);

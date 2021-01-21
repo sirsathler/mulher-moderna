@@ -8,7 +8,6 @@
    color: white;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    font-size: 15px;
-   
 }
 
 @font-face {
@@ -17,7 +16,6 @@
 }
 
 body {
-   overflow: hidden; /* Hide scrollbars */
    background-color: white;
 }
 
@@ -57,7 +55,7 @@ body {
 }
 
 .logo > img{
-   width: 600px;
+   width: 40%;
 }
 
 .boutique{

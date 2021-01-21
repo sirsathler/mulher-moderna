@@ -1,0 +1,30 @@
+.offers-parent > p{
+    color: white;
+    background-color: #dd0042;
+    padding: 40px;
+    text-align: center;
+    font-family: minimal;
+    font-size: 40px;
+}
+.offers-parent > p > strong{
+    color: white;
+    font-family: minimal;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.bags-cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.offers-section-title{
+    margin-top: 20px;
+    padding: 40px;
+    width: 100%;
+    color: black;
+    text-align: center;
+    font-family: minimal;
+    font-size: 60px;
+}

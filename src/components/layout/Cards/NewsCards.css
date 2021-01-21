@@ -1,5 +1,3 @@
-
-
 .news-card{
     height: 350px;
     width: 100%;
@@ -11,7 +9,7 @@
 }
 
 .news-info{
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,23 +25,23 @@
 
 #news-title{
     color: black;
-    font-size: 80px;
+    font-size: 40px;
     font-family: minimal;
     margin-bottom: 10px;
 }
 
 #news-description{
     color: black;
-    font-size: 40px;
+    font-size: 30px;
     font-family: minimal;
     padding: 20px;
+    word-wrap: break-word;
 }
 
 .read-more{
     background-color: #dd0042;
     color: white;
     padding: 20px;
-    width: 200px;
     border: 1px solid #dd0042;
     border-radius: 50px;
     transition: 0.2s;

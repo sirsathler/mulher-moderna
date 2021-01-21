@@ -7,8 +7,8 @@ import './Home.css'
 
 
 const Home = props => (
-    <div className='home'>
-        <div className='daily-offer'>
+    <div className='home-parent'>
+        <a id='daily-offer-button'  href='/'><div className='daily-offer'>
             <div className='daily-offer-bar' />
             <div className='daily-offer-body'>
                 <div className='daily-offer-img'>
@@ -25,11 +25,12 @@ const Home = props => (
                 </div>
             </div>
             <div className='daily-offer-bar' />
-        </div>
+        </div></a>
             <section className='news-section'>
                 <p id='news-header'>Últimas noticias!</p>
                 <div className='news-container'>
                     <NewsCard title='Confira a nova coleção Jasmine!' description='Já está disponível para compra através do site, mercado livre e whatsapp a nova coleção Jasmine. Confira as fotos!' link='https://resize.indiatvnews.com/en/resize/newbucket/715_-/2019/01/cartier-bags-fashion-for-women-1546826071.jpg'/>
+                    <NewsCard title='Promoção vindo aí!' description='Confira o calendário de promoção MULHER MODERNA para o ano de 2021!' link='https://resize.indiatvnews.com/en/resize/newbucket/715_-/2019/01/cartier-bags-fashion-for-women-1546826071.jpg'/>
                     <NewsCard title='Promoção vindo aí!' description='Confira o calendário de promoção MULHER MODERNA para o ano de 2021!' link='https://resize.indiatvnews.com/en/resize/newbucket/715_-/2019/01/cartier-bags-fashion-for-women-1546826071.jpg'/>
                 </div>
             </section>
