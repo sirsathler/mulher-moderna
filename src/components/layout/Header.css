@@ -36,6 +36,8 @@ body {
    margin: 20px;
    border-bottom: 4px solid #dd0042;
    transition: 0.4s;
+   font-family: minimal;
+   font-size: 30px;
 }
 
 .head-menu > a:hover{

@@ -1,17 +1,24 @@
 .product-card-img > img{
-    height: 500px;
+    max-height: 500px;
+    max-width: 400px;
 }
 
-
-.product-card{
-    width: 500px;
-    height: 630px;
-    overflow: hidden;
-    box-shadow: 0px 0px 5px #919191;
-    background-color: white;
+.product-card-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
     background-image: url(../../../img/background.png);
     background-repeat: repeat;
     background-size: 250px;
+}
+
+.product-card{
+    width: 500px;
+    height: 680px;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px #919191;
+    background-color: white;
     margin: 40px;
 }
 
@@ -47,7 +54,7 @@
     color:black;
     
     position: relative;
-    bottom: 100%;
+    bottom: 92.8%;
     opacity: 0;
     transition: opacity 0.2s;
 }

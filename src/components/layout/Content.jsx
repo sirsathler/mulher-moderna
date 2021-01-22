@@ -3,6 +3,8 @@ import { Switch, Route } from "react-router-dom"
 import Home from '../../views/examples/Home'
 import Offers from '../../views/examples/Offers'
 import Catalogue from '../../views/examples/Catalogue'
+import Product from '../../views/examples/Product'
+
 
 import './Content.css'
 
@@ -10,9 +12,6 @@ const Content = props => (
 
     <div className='Content'>
         <Switch>
-            <Route path='/home'>
-                <Home/>
-            </Route>
 
             <Route path='/offers'>
                 <Offers/>
@@ -21,6 +20,15 @@ const Content = props => (
             <Route path='/catalogue'>
                 <Catalogue/>
             </Route>
+
+            <Route path='/product/:id'>
+                <Product/>
+            </Route>
+
+            <Route path='/'>
+                <Home/>
+            </Route>
+
         </Switch>
     </div>
 

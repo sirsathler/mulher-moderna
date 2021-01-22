@@ -1,0 +1,31 @@
+.product-container{
+    display: flex;
+    width: 100%;
+}
+.product-info{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.product-img{
+    width: 50%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../img/background.png);
+    background-repeat: repeat;
+    background-size: 250px;
+}
+
+.product-img > img{
+    max-width: 500px;
+}
+
+.product-info > p{
+    color:black;
+    text-align: center;
+    align-items: center;
+}
